@@ -1,0 +1,97 @@
+* {
+	margin: 0;
+	padding: 0;
+}    
+@font-face{
+    font-family: "Dongle-light";
+    src: url("DongLe/Dongle-light.ttf");
+}
+@font-face{
+    font-family: "Dongle-regular";
+    src: url("DongLe/Dongle-regular.ttf");
+}
+@font-face{
+    font-family: "Dongle-bold";
+    src: url("DongLe/Dongle-bold.ttf");
+}
+header{
+    display: flex;
+    padding: 10px;
+    height: 150px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0, 0.1);
+    align-items: center;
+
+}
+.logo img{
+    max-width: 25%;
+}
+.nav-manu ul{
+    display: flex;
+}
+.nav-manu li{
+    list-style: none;
+    margin-right: 20px;
+}
+.nav-manu li:last-child{
+    margin-right: 0;
+}
+.nav-manu a{
+    text-decoration: none;
+    font-family: "Dongle-bold";
+    font-size: 1.8rem;
+    color: #333;
+    transition: all ease 0.3s;
+}
+.nav-manu a:hover{
+    color: #ff7f50;
+}
+
+.hero{
+    position: relative;;
+    height: 500px;
+    overflow: hidden;
+}
+.hero-image img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+.hero-content{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    text-align: center;
+    color:blueviolet;
+}
+.hero-button{
+    text-decoration: none;
+    color: #fff;
+    background-color: #ff7f50;
+    padding: 12px 30px;
+    border-radius: 50px; 
+    transform: translate(0.3s); 
+}
+.hero-button:hover{
+    background-color: #333;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
